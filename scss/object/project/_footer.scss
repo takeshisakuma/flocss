@@ -1,0 +1,6 @@
+@use "../../foundation/color" as color;
+
+.p-footer {
+  background-color: color.$blue;
+  color: color.$white;
+}

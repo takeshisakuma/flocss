@@ -1,0 +1,9 @@
+@use "../../foundation/color" as color;
+@use "../../foundation/font" as font;
+
+.p-header {
+  background-color: color.$blue;
+  color: color.$white;
+  @include font.rem(20, 1.5);
+  font-weight: bold;
+}
